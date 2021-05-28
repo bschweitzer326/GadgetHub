@@ -1,0 +1,187 @@
+/* nav bar */
+
+.nav {
+    justify-content: center;
+    height: 95px;
+    font-size: 75px;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    padding-top: 5px;
+}
+
+/* end nav bar */
+
+/* images */
+
+.tools {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 180px;
+}
+
+a {
+    border-radius: 20px ;
+}
+
+.map {
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;;
+    background: url("https://c3-preview.prosites.com/253393/wy/images/Logos/google-maps.png") 0 0/cover;
+}
+
+.currency {
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;;
+    background: url("https://images-na.ssl-images-amazon.com/images/I/51f4CwHtzxL.png") 0 0/cover;
+}
+
+.calc {
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;;
+    background: url("https://cdn.jim-nielsen.com/ios/512/calculator-2020-02-06.png") 0 0/cover;
+}
+
+.weather2 {
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;;
+    background: url("https://static01.nyt.com/images/2014/12/11/technology/personaltech/11machin-illo/11machin-illo-articleLarge-v3.jpg?quality=75&auto=webp&disable=upscale") 0 0/cover;
+}
+
+.news {
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;;
+    background: url("https://cdn1.vectorstock.com/i/1000x1000/38/65/newspaper-sign-orange-icon-on-black-background-vector-13393865.jpg") 0 0/cover;
+}
+
+.calendar {
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;;
+    background: url("https://icon-library.com/images/material-calendar-icon/material-calendar-icon-18.jpg") 0 0/cover;
+}
+
+.timezone {
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;;
+    background: url("https://cdn.allwallpaper.in/wallpapers/2400x1200/4834/cities-multicolor-world-map-2400x1200-wallpaper.jpg") 0 0/cover;
+}
+
+.timer {
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;;
+    background: url("https://stopwatchtimers.com/static/images/stopwatchandtimer.png") black 0 0/cover;
+}
+
+/* end images */
+
+/* currency converter css */
+
+.money {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.in {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    width: 200px;
+    height: 35px;
+    font-size: 18px;
+}
+
+table {
+    background: rgba(211, 211, 211, 0.35);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+th {
+    font-size: 25px;
+}
+
+.base, .target {
+    height: 35px;
+    width: 65px;
+    font-size: 18px;
+}
+
+/* end currency converter css */
+
+/* background */
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 919px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* end background */
+
+/* calendar */
+
+.react-calendar {
+    margin: auto;
+    width: auto !important;
+    height: auto;
+    opacity: 70%;
+}
+
+abbr {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+    height: 40px;
+    border: 1px solid black;
+    vertical-align: middle;
+    padding-top: 15px !important;
+}
+
+.react-calendar__month-view__days__day {
+    border: 1px solid black !important;
+    height: 80px;
+}
+
+.react-calendar__navigation__label {
+    margin-top: 10px !important;
+}
+
+.react-calendar__navigation__label__labelText{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.react-calendar__navigation__arrow.react-calendar__navigation__prev2-button, .react-calendar__navigation__arrow.react-calendar__navigation__prev-button, .react-calendar__navigation__arrow.react-calendar__navigation__next-button, .react-calendar__navigation__arrow.react-calendar__navigation__next2-button  {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+
+
